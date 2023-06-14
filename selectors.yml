@@ -1,0 +1,16 @@
+name:
+  css: "#productTitle"
+  type: Text
+price:
+  css: "span.a-offscreen, span#price_inside_buybox"
+  type: Text
+discount:
+  css: "span.savingsPercentage, span.a-color-price span.a-price"
+  type: Text
+original_price:   
+  css: "td.a-span12.a-color-secondary span.a-price, 
+        span.a-price[data-a-strike='true']"   
+  type: Text   
+  filters:
+    - type: Text
+      contains: "aria-hidden"
